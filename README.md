@@ -1,1 +1,0 @@
-# news-blog-vanilla-js
