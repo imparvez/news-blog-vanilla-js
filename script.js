@@ -70,6 +70,8 @@ var news = {
 	selectArticle: function(param){
 		var div = document.getElementById('detail');
 		var p = "";
+		p += "<div class='detail-poster-container'><img src='"+this.newsList[param]['headelineImageUrl']+"' alt='"+this.newsList[param]['headline']+"'/></div>";
+		p += "<h2>"+this.newsList[param]['headline']+"</h2>"
 		p += "<span class='authorName'>"+this.newsList[param]['authorName']+"</span>";
 		div.innerHTML = p;
 
